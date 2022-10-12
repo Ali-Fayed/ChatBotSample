@@ -13,7 +13,7 @@ struct ChatBotSampleApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChatBotView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
